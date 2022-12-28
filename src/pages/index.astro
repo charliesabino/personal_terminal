@@ -6,64 +6,61 @@ import Promt from "../components/Terminal/Promt.astro";
 import BlinkingCursor from "../components/Terminal/BlinkingCursor.astro";
 ---
 
-<Layout title="Dương Quang Hưng">
-	<div
-		class="overflow-hidden shadow-2xl"
-		x-data="{ isWindowFullscreen: false }"
-		x-bind:class="isWindowFullscreen ? 'h-full w-full' : 'h-auto max-w-screen-sm'"
-		x-cloak
-	>
-		<TitleBar title="qhungg289" />
-		<ContentArea>
-			<Promt>cat greeting.md</Promt>
-			<h1 class="font-extrabold"># Hello, I'm Dương Quang Hưng.</h1>
-			<br />
-			<h2 class="font-extrabold">## About me</h2>
-			<p>
-				I'm a young and aspiring developer living in Viet Nam, whose passion was <span
-					class="font-bold text-violet-300"
-					>**creating an awesome digital experience**</span
-				> for your need. I specialize in <span class="font-bold text-violet-300"
-					>**Web Development**</span
-				>, but I prefer the back-end stuff more.
-			</p>
-			<br />
-			<h2 class="font-extrabold">## Contact</h2>
-			<p>
-				-
-				<a
-					class="hover:underline"
-					href="https://github.com/qhungg289"
-					target="_blank">[Github](https://github.com/qhungg289)</a
-				>
-			</p>
-			<p>
-				-
-				<a
-					class="hover:underline"
-					href="https://facebook.com/qhungg289"
-					target="_blank">[Facebook](https://facebook.com/qhungg289)</a
-				>
-			</p>
-			<p>
-				-
-				<a
-					class="hover:underline"
-					href="https://twitter.com/qhungg289"
-					target="_blank">[Twitter](https://twitter.com/qhungg289)</a
-				>
-			</p>
-			<p>
-				-
-				<a
-					class="hover:underline"
-					href="mailto:duongquanghung749@gmail.com"
-					target="_blank">[Email](duongquanghung749@gmail.com)</a
-				>
-			</p>
-			<Promt>
-				<BlinkingCursor />
-			</Promt>
-		</ContentArea>
-	</div>
+<Layout title="Charlie Sabino">
+  <div
+    class="overflow-hidden shadow-2xl"
+    x-data="{ isWindowFullscreen: false }"
+    x-bind:class="isWindowFullscreen ? 'h-full w-full' : 'h-auto max-w-screen-sm'"
+    x-cloak
+  >
+    <TitleBar title="charliesabino" />
+    <ContentArea>
+      <Promt>cat greeting.md</Promt>
+      <h1 class="font-extrabold"># Hello, I'm Charlie Sabino.</h1>
+      <br />
+      <h2 class="font-extrabold">## About me</h2>
+      <p>
+        I'm an aspiring software engineer currently studying studying computer
+        science and economics at the University of Chicago.
+      </p>
+      <br />
+      <h2 class="font-extrabold">## Contact</h2>
+      <p>
+        -
+        <a
+          class="hover:underline"
+          href="https://github.com/charliesabino"
+          target="_blank">[Github](https://github.com/charliesabino)</a
+        >
+      </p>
+      <p>
+        -
+        <a
+          class="hover:underline"
+          href="https://www.linkedin.com/in/charlie-sabino/"
+          target="_blank"
+          >[LinkedIn](https://www.linkedin.com/in/charlie-sabino/)</a
+        >
+      </p>
+      <p>
+        -
+        <a
+          class="hover:underline"
+          href="https://twitter.com/charliesabino"
+          target="_blank">[Twitter](https://twitter.com/charliesabino)</a
+        >
+      </p>
+      <p>
+        -
+        <a
+          class="hover:underline"
+          href="mailto:sabinoc@uchicago.edu"
+          target="_blank">[Email](sabinoc@uchicago.edu)</a
+        >
+      </p>
+      <Promt>
+        <BlinkingCursor />
+      </Promt>
+    </ContentArea>
+  </div>
 </Layout>
